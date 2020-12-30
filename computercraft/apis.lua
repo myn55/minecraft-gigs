@@ -32,7 +32,7 @@ _G.term = {
     write = function(text) end;
 }
 
-_G.textUtils = {
+_G.textutils = {
     slowWrite = function(text, speed) end;
     slowPrint = function(text, speed) end;
 }
