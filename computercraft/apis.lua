@@ -2,6 +2,8 @@
 
 -- (sorta) Dummy functions and variables so that I don't see yellow squiggly lines on ComputerCraft terms while editing in my IDE
 
+_G.sleep = function(delay) end
+
 _G.colors = {
     white = 0x1;
     orange = 0x2;
