@@ -24,3 +24,14 @@ _G.colors = {
     subtract = function(colors, color1, color2, ...) end;
     test = function(colors, color) end;
 }
+
+_G.term = {
+    getSize = function() return 0x0, 0x0 end;
+    setCursorPos = function(x, y) end;
+    write = function(text) end;
+}
+
+_G.textUtils = {
+    slowWrite = function(text, speed) end;
+    slowPrint = function(text, speed) end;
+}
