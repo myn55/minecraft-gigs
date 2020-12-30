@@ -49,3 +49,7 @@ _G.os = {
     pullEvent = function(eventFilter) end;
     pullEventRaw = function(eventFilter) end;
 }
+
+_G.peripheral = {
+    wrap = function(side) end;
+}
