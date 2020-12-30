@@ -28,6 +28,7 @@ _G.colors = {
 _G.term = {
     getSize = function() return 0x0, 0x0 end;
     setCursorPos = function(x, y) end;
+    setTextColor = function(color) end;
     write = function(text) end;
 }
 
