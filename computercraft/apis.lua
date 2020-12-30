@@ -44,3 +44,8 @@ _G.textutils = {
 _G.shell = {
     run = function(file) end;
 }
+
+_G.os = {
+    pullEvent = function(eventFilter) end;
+    pullEventRaw = function(eventFilter) end;
+}
