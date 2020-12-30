@@ -52,4 +52,5 @@ _G.os = {
 
 _G.peripheral = {
     wrap = function(side) end;
+    call = function(side, method) end;
 }
