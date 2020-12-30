@@ -40,3 +40,7 @@ _G.textutils = {
     slowWrite = function(text, speed) end;
     slowPrint = function(text, speed) end;
 }
+
+_G.shell = {
+    run = function(file) end;
+}
