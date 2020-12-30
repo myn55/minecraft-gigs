@@ -30,6 +30,8 @@ _G.term = {
     setCursorPos = function(x, y) end;
     setTextColor = function(color) end;
     write = function(text) end;
+    clear = function() end;
+    clearLine = function() end;
 }
 
 _G.textutils = {
