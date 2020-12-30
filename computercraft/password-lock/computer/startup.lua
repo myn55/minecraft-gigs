@@ -4,6 +4,7 @@
 --os.pullEvent = os.pullEventRaw
 
 -- Constants
+local settings = require '.password_settings'
 local width, height = term.getSize()
 
 -- Loading screen rendering
@@ -16,3 +17,7 @@ term.setTextColor(colors.yellow)
 textutils.slowWrite('Loading...', 15)
 sleep(0.5)
 term.setTextColor(colors.green)
+term.clearLine()
+term.write('Loading complete')
+
+shell.run('password.lua')
