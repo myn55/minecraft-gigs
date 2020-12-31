@@ -13,7 +13,7 @@ term.setCursorPos(1, 1)
 term.clearLine()
 textutils.slowWrite('Endemal Systems //', 15)
 term.setCursorPos(1, 2)
-textutils.slowWrite('Loading...', 15)
+textutils.slowWrite('Loading', 15)
 
 sleep(0.5)
 
@@ -21,7 +21,6 @@ term.setTextColor(colors.yellow)
 term.setCursorPos(10, 10)
 for i=1, width-19 do
     term.write('#')
-    sleep(0.05)
 end
 sleep(0.5)
 
