@@ -6,6 +6,7 @@ local module = {
     redstoneSide = ''; -- If a terminal, the side for the redstone signal to go on
     redstoneStrength = 0; -- Strength of the redstone signal
     speakerInstalled = false; -- If a speaker is installed on any side
+    passwordCharLimit = 0; -- Character limit for a password
 }
 
 return module
