@@ -30,8 +30,10 @@ uiutils.writeCenter(10, line)
 -- Password logic
 term.setCursorPos(#line/2+1, 9)
 while true do
-    local _, key = os.pullEvent('key')
-    if key == 28 then
-        
+    local event, key = os.pullEvent()
+    if event == 'char' then
+        term.write(key)
+    elseif event == 'key' then
+        term.write(key)
     end
 end
